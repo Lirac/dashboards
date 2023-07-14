@@ -24,6 +24,8 @@ import people01 from "./people01.png";
 import people02 from "./people02.png";
 import people03 from "./people03.png";
 import dashboardLogo from "./dashboardLogo.png"
+import analytics from './analytics.jpg'
+import analyticsTwo from './analyticsTwo.jpg'
 
 export {
   airbnb,
@@ -51,5 +53,7 @@ export {
   people01,
   people02,
   people03,
-  dashboardLogo
+  dashboardLogo,
+  analytics,
+  analyticsTwo
 };
