@@ -138,3 +138,19 @@
   background: rgba(255, 255, 255, 0.6);
   filter: blur(750px);
 }
+
+.pulse {
+  animation: pulse-animation 3s infinite alternate;
+}
+
+@keyframes pulse-animation {
+  0% {
+    box-shadow: 0 0 0 0px  #56656e, 0 0 0 0px #56656e;
+    padding: 2px;
+    
+  }
+  100% {
+   box-shadow: 0 10px 30px -1px #354148, 0 10px 30px -1px #354148;
+   padding: 6px;
+  }
+}
